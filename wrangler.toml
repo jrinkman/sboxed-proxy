@@ -1,0 +1,8 @@
+name = "sboxed-proxy"
+type = "webpack"
+account_id = "6f7763ce1e26e30668bcd7179f0d3d1b"
+workers_dev = true
+
+[env.production]
+route = "proxy.sboxed.com/*"
+zone_id = "cf7889b587623fd8359d50a97d0e983a"
