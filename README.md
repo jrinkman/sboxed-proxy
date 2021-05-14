@@ -6,9 +6,9 @@
 
 You can make any s&box API request as per normal, however, using `proxy.sboxed.com`.
 
-Some examples:
-
--   [https://apix.facepunch.com/api/sbox/menu/index](https://apix.facepunch.com/api/sbox/menu/index) → [https://proxy.sboxed.com/menu/index](https://proxy.sboxed.com/menu/index)
+-   [https://proxy.sboxed.com/menu/index](https://proxy.sboxed.com/menu/index)
+-   [https://proxy.sboxed.com/asset/find?type=map](https://proxy.sboxed.com/asset/find?type=map)
+-   [https://proxy.sboxed.com/asset/get?id=facepunch.dm98](https://proxy.sboxed.com/asset/get?id=facepunch.dm98)
 
 ## Why was this created?
 
