@@ -14,7 +14,7 @@ You can make any s&box API request as per normal, however, using `proxy.sboxed.c
 -   [https://proxy.sboxed.com/asset/find?type=map](https://proxy.sboxed.com/asset/find?type=map)
 -   [https://proxy.sboxed.com/asset/get?id=facepunch.dm98](https://proxy.sboxed.com/asset/get?id=facepunch.dm98)
 
-These reponses, unlike the official API, will return requests with CORS headers.
+These responses, unlike the official API, will return requests with CORS headers.
 
 ## Contributing / Bugs
 
