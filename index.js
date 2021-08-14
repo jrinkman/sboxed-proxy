@@ -38,7 +38,11 @@ async function handleRequest(request) {
   const url = new URL(request.url);
 
   // Make the API request
-  let response = await fetch(`https://apix.facepunch.com/api/sbox${url.pathname}${url.search}`);
+  let response = await fetch(`https://apix.facepunch.com/api/sbox${url.pathname}${url.search}`, {
+    headers: {
+      'X-Api-Version': '25'
+    }
+  });
 
   // Recreate the response to modify the headers
   response = new Response(response.body, response);
