@@ -1,7 +1,8 @@
 name = "sboxed-proxy"
 type = "webpack"
 account_id = "6f7763ce1e26e30668bcd7179f0d3d1b"
-workers_dev = true
+workers_dev = false
+compatibility_date = "2021-11-03"
 
 [env.production]
 route = "https://proxy.sboxed.com/*"
