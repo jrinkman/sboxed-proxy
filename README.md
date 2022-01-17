@@ -10,7 +10,7 @@ The s&box API does not allow for CORS requests - so this proxy now exists.
 
 You can make any s&box API request as per normal, however, using `proxy.sboxed.com`.
 
--   [https://proxy.sboxed.com/asset/get?id=facepunch.dm98](https://proxy.sboxed.com/asset/get?id=facepunch.dm98)
+-   [https://proxy.sboxed.com/sandbox-asset?id=gkaf.dodgeball](https://proxy.sboxed.com/sandbox-asset?id=gkaf.dodgeball)
 
 These responses, unlike the official API, will return requests with CORS headers.
 
